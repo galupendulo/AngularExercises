@@ -1,0 +1,15 @@
+var global;
+
+function scope1 {
+    var 1;
+
+    function scope2 {
+        var 2;
+
+        function scope3 {
+            var 3;
+
+            3 = 2 + 1 +  global
+        }
+    }
+}

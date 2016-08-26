@@ -1,0 +1,12 @@
+// mariano's library
+
+var ando = 'me caigo';
+var mato = 'me mato';
+
+function andar() {
+    console.log(ando)
+}
+
+function matar() {
+    console.log(mato)
+}

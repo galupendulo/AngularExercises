@@ -1,0 +1,121 @@
+   <!--  Tema de botones hecho a lo burro
+
+           <div class="row row-align">
+                <div class="col-sm-2 codigo">
+                  <button type="button" class="btn btn-default">Default</button>
+                </div>
+                <div class="col-sm-10">
+                  <figure class="highlight codigo">
+                    <code class="language-html" data-lang="html">
+                      <span>&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Danger&lt;/button&gt;</span>
+                    </code>
+                  </figure>
+                </div>
+            </div>
+            <div class="row row-align">
+              <div class="col-sm-2 codigo">
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+              <div class="col-sm-10">
+                <figure class="highlight codigo">
+               
+                  <code class="language-html" data-lang="html">
+                    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+                    
+                  </code>
+                
+                </figure>
+              </div>
+            </div>
+             <div class="row row-align">
+                  <div class="col-sm-2 codigo">
+                     <button type="button" class="btn btn-success">Success</button>
+                   </div>
+                     <div class="col-sm-10">
+                       <figure class="highlight codigo">
+                        
+                          <code class="language-html" data-lang="html">
+                             &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+                          </code>
+                     
+                      </figure>
+                   </div>
+               
+             </div>
+             <div class="row row-align">
+                 <div class="col-sm-2 codigo">
+                   <button type="button" class="btn btn-info">Info</button>
+                 </div>
+                  <div  class="col-sm-10">
+                    <figure class="highlight codigo">
+                        <code class="language-html" data-lang="html">
+                          &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+                        </code>
+                    </figure>
+                  </div>
+                
+             </div>
+             <div class="row row-align">
+                 <div class="col-sm-2 codigo">
+                   <button type="button" class="btn btn-warning">Warning</button>
+                 </div>
+                   <div class="col-sm-10">
+                     <figure class="highlight codigo">
+                      
+                        <code class="language-html" data-lang="html">
+                          &lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+                        </code>
+                      
+                    </figure>
+                   </div>
+             </div>
+             <div class="row row-align">
+                  <div class="col-sm-2 codigo">
+                    <button type="button" class="btn btn-danger">Danger</button>
+                  </div>
+                   <div class="col-sm-10">
+                     <figure class="highlight codigo">
+                     
+                        <code class="language-html" data-lang="html">
+                          &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+                        </code>
+                      
+                    </figure>
+                   </div>
+               
+             </div>
+             <div class="row row-align">
+                 <div class="col-sm-2 codigo">
+                    <button type="button" class="btn btn-link">Link</button>
+                 </div>
+                  <div class="col-sm-10">
+                    <figure class="highlight codigo">
+                      
+                        <code class="language-html" data-lang="html">
+                          
+                         &lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;
+                        </code>
+                      
+                    </figure>
+                  </div>
+               
+             </div> -->
+                <!--  Los botones un poco mas chachis con ng-repeat
+
+            <div class="row row-align" ng-repeat="btn in buttons">
+                 <mybtn btn="btn"></mybtn>
+                 <div class="col-sm-2 codigo">
+                    <button type="button" class="btn btn-{{btn.name}}">{{btn.name}}</button>
+                 </div>
+                  <div class="col-sm-10">
+                    <figure class="highlight codigo">
+                      
+                        <code class="language-html" data-lang="html">
+                          
+                         &lt;button type=&quot;button&quot; class=&quot;btn btn-{{btn.name}}&quot;&gt;{{btn.name}}&lt;/button&gt;
+                        </code>
+                      
+                    </figure>
+                  </div>
+               
+             </div> -->

@@ -1,0 +1,12 @@
+// victor's library
+
+var ando = 'ando';
+var mato = 'mato';
+
+function andar() {
+    console.log(ando)
+}
+
+function matar() {
+    console.log(mato)
+}

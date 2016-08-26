@@ -1,0 +1,16 @@
+var heaven = [34, [], "bodacious", "barbecues", "begin", "whatever", "by", "battering", true, "bacon"];
+
+var result = "";
+for (var i = 0; i < heaven.length; i++) {
+    var element = heaven[i];
+    if (typeof(element) == "string") {
+        if (element.split("")[0] == "b") {
+            result += element;
+        }
+    };
+}
+
+var full_name = function(first_name,lasat_name){
+    
+    return first_name + last_name
+}
